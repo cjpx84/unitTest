@@ -28,10 +28,10 @@ sleep(200);
 
 void test_func2(int x,int y)
 {
-  char *ptr=NULL;
   printf("test func 2 %d\n",x+y);
   
-  *ptr = 'c';
+ printf("x+y=%d\n",x+y);
+  
 printf("test func 2 end\n");
 }
 void test_func(void)
